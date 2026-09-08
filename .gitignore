@@ -1,0 +1,63 @@
+# ==========================================
+# Xilinx Vivado Project .gitignore
+# ==========================================
+
+# Vivado project files and generated directories
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.srcs/sources_1/ip/
+*.gen/
+*.data/
+*.xsa
+.Xil/
+
+# Vivado logs and journals
+*.log
+*.jou
+*.str
+vivado*.log
+vivado*.jou
+webtalk*.log
+webtalk*.jou
+
+# Synthesis / Implementation outputs
+*.dcp
+*.bit
+*.bin
+*.mcs
+*.prm
+*.ltx
+*.rpt
+
+# Simulation outputs
+*.wdb
+*.vcd
+*.wlf
+*.pb
+xsim.dir/
+*.jobs/
+
+# Backup and temporary files
+*.bak
+*.tmp
+*~
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE files
+.vscode/
+.idea/
+*.iml
+
+# Vivado auto-generated project subfolders
+.metadata/
+.Xil/
+NA/
